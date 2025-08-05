@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <!-- Change your name here -->
+                <a href="#hero">Your Name</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Change your name here -->
+                <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+                <!-- The typing effect will show these roles -->
+                <h2>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <!-- Change your roles here (for typing effect) -->
+                <div class="roles-data" data-roles="Web Developer,UI/UX Designer,Freelancer,Photographer"></div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Change your profile image here -->
+                    <img src="images/profile.jpg" alt="Your Name">
+                </div>
+                <div class="about-text">
+                    <!-- Change your about text here -->
+                    <p>Hello! I'm a passionate web developer with a strong foundation in creating responsive and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I enjoy bringing creative designs to life.</p>
+                    <p>I'm dedicated to writing clean, efficient code and constantly learning new technologies to stay at the forefront of web development.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-title">Name:</span>
+                            <!-- Change your name here -->
+                            <span class="info-value">Your Name</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <!-- Change your email here -->
+                            <span class="info-value">your.email@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <!-- Change your location here -->
+                            <span class="info-value">City, Country</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Availability:</span>
+                            <!-- Change your availability here -->
+                            <span class="info-value">Available for Freelance</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <!-- Change your resume link here -->
+                        <a href="#" class="btn primary-btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <!-- Change your skills here -->
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-sass"></i>
+                    <h3>Sass</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-content">
+                <!-- Project 1 - Change details as needed -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of your project. Explain what technologies you used and what problem it solves.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - Change details as needed -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>A brief description of your project. Explain what technologies you used and what problem it solves.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - Change details as needed -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of your project. Explain what technologies you used and what problem it solves.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <!-- Change your email here -->
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <!-- Change your location here -->
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <!-- Change your phone here -->
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <!-- Change your social links here -->
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
